@@ -1,0 +1,766 @@
+         326772 function calls (325324 primitive calls) in 1.419 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      327    1.118    0.003    1.118    0.003 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.061    0.061    0.061    0.061 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.057    0.057    0.057    0.057 {method 'connect' of '_socket.socket' objects}
+     2685    0.015    0.000    0.078    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:301(parse_starttag)
+    21995    0.014    0.000    0.014    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.010    0.005    0.129    0.065 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:134(goahead)
+        1    0.009    0.009    0.009    0.009 {built-in method _socket.getaddrinfo}
+       42    0.006    0.000    0.006    0.000 {method 'decompress' of 'zlib.Decompress' objects}
+     2570    0.005    0.000    0.008    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:295(_replace_cdata_list_attribute_values)
+     8086    0.005    0.000    0.005    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:156(setup)
+     2685    0.004    0.000    0.030    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:722(handle_starttag)
+     5612    0.004    0.000    0.017    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:586(endData)
+     2686    0.004    0.000    0.014    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1199(__init__)
+     2539    0.004    0.000    0.024    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:379(parse_endtag)
+        3    0.004    0.001    0.004    0.001 {built-in method _scproxy._get_proxy_settings}
+     2685    0.004    0.000    0.036    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:105(handle_starttag)
+     8036    0.003    0.000    0.003    0.000 {method 'search' of 're.Pattern' objects}
+    13146    0.003    0.000    0.003    0.000 {method 'group' of 're.Match' objects}
+35815/35807    0.003    0.000    0.004    0.000 {built-in method builtins.isinstance}
+    10713    0.003    0.000    0.006    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_markupbase.py:44(updatepos)
+     7953    0.003    0.000    0.003    0.000 {method 'count' of 'str' objects}
+     2686    0.003    0.000    0.018    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:160(handle_endtag)
+     2684    0.003    0.000    0.005    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:688(_popToTag)
+     2700    0.003    0.000    0.007    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:620(object_was_parsed)
+    17507    0.003    0.000    0.003    0.000 {method 'append' of 'list' objects}
+    14574    0.002    0.000    0.002    0.000 {method 'lower' of 'str' objects}
+    13824    0.002    0.000    0.002    0.000 {method 'get' of 'dict' objects}
+     2686    0.002    0.000    0.003    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:572(pushTag)
+    14007    0.002    0.000    0.002    0.000 {method 'end' of 're.Match' objects}
+     2700    0.002    0.000    0.005    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:943(__new__)
+       43    0.002    0.000    0.008    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:122(decompress)
+ 2148/852    0.002    0.000    0.004    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2336(_matches)
+     1944    0.002    0.000    0.003    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/__init__.py:91(_replace_charref)
+       67    0.002    0.000    0.169    0.003 {method 'read' of '_io.BufferedReader' objects}
+     2684    0.002    0.000    0.015    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:763(handle_endtag)
+      327    0.002    0.000    1.121    0.003 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1236(recv_into)
+        1    0.002    0.002    0.002    0.002 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+     8308    0.002    0.000    0.002    0.000 {method 'startswith' of 'str' objects}
+     2685    0.002    0.000    0.002    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:558(popTag)
+        1    0.002    0.002    0.002    0.002 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:909(text)
+     2685    0.001    0.000    0.007    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:345(check_for_whole_start_tag)
+     3350    0.001    0.000    0.008    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2303(search)
+     2175    0.001    0.000    0.001    0.000 {method 'findall' of 're.Pattern' objects}
+     1429    0.001    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:648(_linkage_fixer)
+      413    0.001    0.000    0.004    0.000 {method 'sub' of 're.Pattern' objects}
+     1714    0.001    0.000    0.006    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2240(search_tag)
+     2599    0.001    0.000    0.002    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:178(handle_data)
+        3    0.001    0.000    0.010    0.003 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:792(_find_all)
+     2745    0.001    0.000    0.001    0.000 {built-in method __new__ of type object at 0x1018020e8}
+      327    0.001    0.000    1.123    0.003 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:706(readinto)
+     5476    0.001    0.000    0.001    0.000 {method 'start' of 're.Match' objects}
+     5800    0.001    0.000    0.005    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/__init__.py:122(unescape)
+     2700    0.001    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:523(string_container)
+      327    0.001    0.000    1.119    0.003 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1094(read)
+6034/6008    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     2720    0.001    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:773(handle_data)
+     6838    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+     2685    0.001    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1371(is_empty_element)
+       19    0.001    0.000    0.179    0.009 {method 'join' of 'bytes' objects}
+     2693    0.001    0.000    0.001    0.000 {method 'endswith' of 'str' objects}
+     3215    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+     3365    0.000    0.000    0.001    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.899    0.450 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:291(_read_status)
+     2686    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:205(can_be_empty_element)
+     6639    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1586(__bool__)
+     2725    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+     2756    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+     2574    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       68    0.000    0.000    0.955    0.014 {method 'readline' of '_io.BufferedReader' objects}
+     1909    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+     2686    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:453(set_up_substitutions)
+     2685    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_markupbase.py:36(getpos)
+       43    0.000    0.000    0.177    0.004 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:1173(read_chunked)
+      327    0.000    0.000    0.000    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+     3429    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2062(descendants)
+        2    0.000    0.000    0.000    0.000 {built-in method _scproxy._get_proxies}
+     2205    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+     2205    0.000    0.000    0.001    0.000 <frozen abc>:117(__instancecheck__)
+     2539    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:127(clear_cdata_mode)
+     1821    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+       42    0.000    0.000    0.168    0.004 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:1151(_handle_chunk)
+      327    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+      658    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1082(_checkClosed)
+      331    0.000    0.000    0.000    0.000 {method '__exit__' of 'memoryview' objects}
+     1741    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2203(_normalize_search_value)
+        6    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:216(_parsegen)
+        2    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:469(_parse_headers)
+      329    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:745(readable)
+      120    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_markupbase.py:165(parse_comment)
+        5    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+     13/6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:512(_parse)
+      2/1    0.000    0.000    1.273    1.273 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:673(send)
+        2    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:374(urlparse)
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       10    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:227(_encode_invalid_chars)
+       43    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:1133(_update_chunk_length)
+       11    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       64    0.000    0.000    0.168    0.003 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:633(_safe_read)
+        2    0.000    0.000    0.057    0.028 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:213(_read_headers)
+      3/2    0.000    0.000    1.046    0.523 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:159(resolve_redirects)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:529(get_all)
+       44    0.000    0.000    0.008    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:469(_decode)
+     24/6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:37(_compile)
+        2    0.000    0.000    0.002    0.001 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/parser.py:56(parsestr)
+      120    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:241(handle_comment)
+        2    0.000    0.000    0.960    0.480 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:485(getresponse)
+       40    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_policybase.py:301(header_source_parse)
+        1    0.000    0.000    1.419    1.419 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex04/./financial.py:10(fetch_financial_data)
+       16    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:494(get)
+      513    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1543(get)
+       60    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/__init__.py:280(_compile)
+        2    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        2    0.000    0.000    0.958    0.479 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:324(begin)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:335(extend)
+       13    0.000    0.000    0.000    0.000 <frozen _collections_abc>:974(update)
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py:2520(getproxies_environment)
+       65    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:46(__setitem__)
+      294    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1599(make_cookies)
+       45    0.000    0.000    0.178    0.004 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:816(generate)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:100(push)
+        2    0.000    0.000    1.090    0.545 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:592(urlopen)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:577(__init__)
+       45    0.000    0.000    0.178    0.004 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:1044(stream)
+        1    0.000    0.000    0.130    0.130 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:122(__init__)
+  129/127    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        6    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:124(extract_cookies_to_jar)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:28(StreamReader)
+        2    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        2    0.000    0.000    1.092    0.546 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:613(send)
+       48    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:257(__getitem__)
+    43/13    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1680(extract_cookies)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:316(__init__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:137(__init__)
+        2    0.000    0.000    1.090    0.545 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:377(_make_request)
+      140    0.000    0.000    0.000    0.000 <frozen os>:732(__iter__)
+       40    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:300(add)
+        3    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py:2594(_proxy_bypass_macosx_sysconf)
+       48    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:77(readline)
+       68    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:658(__init__)
+        2    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:369(request)
+       48    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:127(__next__)
+        2    0.000    0.000    0.000    0.000 {method 'poll' of 'select.poll' objects}
+        6    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:176(_call_parse)
+       52    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_policybase.py:289(_sanitize_header)
+       10    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1292(putheader)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:452(urlsplit)
+        2    0.000    0.000    0.002    0.001 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/parser.py:41(parse)
+       99    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+        2    0.000    0.000    0.002    0.001 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:231(_parse_header_lines)
+        2    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:359(build_response)
+        5    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        3    0.000    0.000    0.005    0.002 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:765(should_bypass_proxies)
+      459    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      143    0.000    0.000    0.000    0.000 <frozen os>:795(decode)
+        1    0.000    0.000    0.001    0.001 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:916(read)
+       33    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:119(_coerce_args)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:596(get_content_type)
+       51    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:123(set_cdata_mode)
+      140    0.000    0.000    0.000    0.000 <frozen _collections_abc>:868(__iter__)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:122(put)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:95(_default_key_normalizer)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:304(makefile)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:240(__init__)
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x100cf5620}
+      170    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:168(__getitem__)
+        2    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:864(_raw_read)
+       56    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:90(handle_startendtag)
+       22    0.000    0.000    0.000    0.000 <frozen _collections_abc>:804(get)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1136(putrequest)
+     13/6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:452(_parse_sub)
+       10    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:355(putheader)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:52(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:367(parse_url)
+       13    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+       52    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/_policybase.py:319(header_fetch_parse)
+       54    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/utils.py:52(_has_surrogates)
+       62    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+       23    0.000    0.000    0.000    0.000 <frozen os>:709(__getitem__)
+        2    0.000    0.000    0.059    0.030 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:245(parse_headers)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:484(reset)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1308(_real_close)
+       32    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:51(__getitem__)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:516(_compile_info)
+    28/10    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:178(getwidth)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:483(items)
+       20    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:164(hostname)
+        2    0.000    0.000    0.001    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:204(get_netrc_auth)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1261(__init__)
+        4    0.000    0.000    0.000    0.000 <frozen posixpath>:256(expanduser)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:430(close)
+        5    0.000    0.000    0.179    0.036 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:890(content)
+       46    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+       40    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:511(set_raw)
+       34    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       22    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:205(_hostinfo)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:783(close)
+       45    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        2    0.000    0.000    0.959    0.479 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1384(getresponse)
+        1    0.000    0.000    0.129    0.129 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:669(connect)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1356(add_cookie_header)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:61(lookup)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py:124(RLock)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py:1556(__and__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1199(sendall)
+       13    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:154(get)
+        8    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:35(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:539(get_encoding_from_headers)
+       10    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:40(__init__)
+       17    0.000    0.000    0.002    0.000 {method 'decode' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:685(_init_length)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1597(find_spec)
+       26    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:150(__init__)
+        6    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:745(compile)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/typing.py:1492(__subclasscheck__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:243(get_payload)
+        1    0.000    0.000    0.002    0.002 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:302(rebuild_proxies)
+       54    0.000    0.000    0.001    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/__init__.py:226(compile)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:243(_optimize_charset)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:349(_encode_target)
+        1    0.000    0.000    0.063    0.063 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:955(_create)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:256(get)
+       92    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:240(__next)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:521(cookiejar_from_dict)
+       23    0.000    0.000    0.000    0.000 <frozen os>:791(encode)
+       75    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:261(get)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:969(parse)
+      180    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:578(_code)
+        1    0.000    0.000    1.278    1.278 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/api.py:62(get)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/fnmatch.py:19(fnmatch)
+        8    0.000    0.000    0.002    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:182(handle_charref)
+       52    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py:202(__get__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:182(close)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:294(_put_conn)
+       72    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 <frozen _collections_abc>:811(__contains__)
+        2    0.000    0.000    0.002    0.001 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/__init__.py:71(search_function)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:29(_splitparam)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1066(get_code)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:141(clear)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:641(release_conn)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:463(read)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:107(get_redirect_target)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:428(copy)
+        6    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:741(_error_catcher)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:446(get_connection_with_tls_context)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:118(__init__)
+        2    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py:141(__exit__)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py:299(__enter__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:46(__init__)
+     10/6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:441(_get_literal_prefix)
+       42    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:289(__iter__)
+        4    0.000    0.000    0.002    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:171(feed)
+        5    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x100cf6340}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/typing.py:1221(__instancecheck__)
+       56    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        1    0.000    0.000    0.129    0.129 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:372(feed)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py:132(__enter__)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:838(select_proxy)
+        5    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:121(pushlines)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py:2712(getproxies)
+        3    0.000    0.000    0.005    0.002 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py:2685(proxy_bypass_macosx_sysconf)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:305(connection_from_context)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:769(is_redirect)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:261(__init__)
+        1    0.000    0.000    0.063    0.063 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:846(_ssl_wrap_socket_and_match_hostname)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:335(putrequest)
+        1    0.000    0.000    1.278    1.278 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:500(request)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ipaddress.py:1187(_ip_int_from_string)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:298(__init__)
+       10    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1227(deepvalues)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/typing.py:392(inner)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py:104(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:90(_urllib3_request_context)
+       36    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py:1538(_get_value)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:450(_init_decoder)
+       14    0.000    0.000    0.000    0.000 {built-in method time.time}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:85(path_url)
+        1    0.000    0.000    0.002    0.002 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:864(resolve_proxies)
+       25    0.000    0.000    0.000    0.000 <frozen _collections_abc>:892(__iter__)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/contextlib.py:299(helper)
+       20    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py:720(__call__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+        1    0.000    0.000    0.129    0.129 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:104(feed)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/wait.py:82(_have_working_poll)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:140(get_cookie_header)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:126(_path_join)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:382(copy)
+       55    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:176(append)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1349(_find_and_load)
+        1    0.000    0.000    1.278    1.278 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/api.py:14(request)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1027(send)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/__init__.py:43(normalize_encoding)
+       44    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:442(flush)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:413(_splitnetloc)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:245(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:256(parse_html_declaration)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:486(cache_from_source)
+       36    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1417(_all_strings)
+        7    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+       25    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        1    0.000    0.000    0.066    0.066 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:192(_new_conn)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:175(__init__)
+       24    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py:394(notify)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ipaddress.py:1286(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:799(iter_content)
+        2    0.000    0.000    0.129    0.065 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:1085(_validate_conn)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:263(_remove_path_dot_segments)
+       16    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:807(_fp_read)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+       10    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:404(<genexpr>)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py:302(__exit__)
+        3    0.000    0.000    0.005    0.002 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py:2699(proxy_bypass)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1082(_send_output)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:195(_new_message)
+        7    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:57(__iter__)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:288(__subclasshook__)
+        7    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:109(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:514(_parse_content_type_header)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/retry.py:387(is_retry)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:276(connection_from_host)
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       38    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:774(get_proxy)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:143(flush)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:250(handle_decl)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:536(close)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:694(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:256(_get_conn)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/fnmatch.py:74(translate)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:358(update)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:1154(_splitport)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/wait.py:57(poll_wait_for_socket)
+        4    0.000    0.000    0.000    0.000 <frozen _collections_abc>:940(pop)
+        1    0.000    0.000    0.001    0.001 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:457(prepare_request)
+        4    0.000    0.000    0.000    0.000 <frozen _collections_abc>:104(_check_methods)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:1(<module>)
+       20    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:357(<genexpr>)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/fnmatch.py:64(fnmatchcase)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:404(retries)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:86(__init__)
+       35    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       11    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+       14    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:273(get_text)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:636(unquote_unreserved)
+       11    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:69(close)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:139(__init__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:221(__init__)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:620(get_content_maintype)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/wait.py:95(wait_for_socket)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:794(close)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:520(urlunsplit)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1064(_output)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:330(connection_from_pool_key)
+       49    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:164(__len__)
+        5    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.066    0.066 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/connection.py:27(create_connection)
+        5    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:301(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/collections/__init__.py:595(__init__)
+       52    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py:1286(value)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:409(prepare_url)
+        7    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:61(merge_setting)
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:334(__init__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1320(endheaders)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/retry.py:379(_is_method_retryable)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:252(put)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:267(clear)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/request.py:191(body_to_chunks)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:351(prepare)
+       35    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:58(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:935(quote_from_bytes)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:660(requote_uri)
+       23    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/util.py:19(to_str)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:396(_check_close)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:216(_compile_charset)
+        2    0.000    0.000    0.002    0.001 {built-in method builtins.__import__}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:947(_wrap_ipv6)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2155(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+       10    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1753(__iter__)
+        1    0.000    0.000    0.129    0.129 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:471(_feed)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:296(is_connected)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1734(clear_expired_cookies)
+    43/13    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:509(urlunparse)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:491(_decref_socketios)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/response.py:9(is_fp_closed)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:96(reset)
+        2    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1187(get_data)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/parser.py:17(__init__)
+       20    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/enum.py:1123(__new__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       25    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:859(quote)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+        2    0.000    0.000    0.005    0.002 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:826(get_environ_proxies)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/__init__.py:164(match)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:499(_flush_decoder)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:425(_close_conn)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/fnmatch.py:38(_compile_pattern)
+       24    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py:314(_is_owned)
+        1    0.000    0.000    0.000    0.000 {method 'register' of 'select.poll' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:210(_get_decoder)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:333(rebuild_method)
+        7    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:345(to_key_val_list)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:100(__new__)
+       53    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:256(match)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:911(_load_unlocked)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:610(prepare_cookies)
+       10    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        9    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:824(<genexpr>)
+       33    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:293(tell)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:1170(_close_pool_connections)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1495(_get_spec)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:188(clone)
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:993(exec_module)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+        3    0.000    0.000    0.010    0.003 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2013(find_all)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:546(request_url)
+        4    0.000    0.000    0.000    0.000 <frozen genericpath>:16(exists)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py:1790(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/wait.py:113(wait_for_read)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:396(build_connection_pool_key_attributes)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:390(__init__)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:372(_escape)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:497(_real_close)
+        1    0.000    0.000    0.063    0.063 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:449(wrap_socket)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:76(copy)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:1044(_new_conn)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:806(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py:1517(debug)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:248(_qsize)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:33(getregentry)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:504(set_alpn_protocols)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1297(_cookie_attrs)
+       14    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:884(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:403(_simple)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:412(_generate_overlap_table)
+        5    0.000    0.000    0.000    0.000 <frozen _collections_abc>:819(keys)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:865(__init__)
+       33    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:108(_noop)
+       22    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        2    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:202(__init__)
+       24    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+       51    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1624(__eq__)
+       32    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+       21    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:130(_validate_timeout)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:440(_copy_cookie_jar)
+       10    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        6    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:163(host)
+       12    0.000    0.000    0.000    0.000 <frozen posixpath>:52(normcase)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+       11    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       42    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/collections/__init__.py:609(__missing__)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/idna.py:155(encode)
+        7    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/_internal_utils.py:25(to_native_string)
+       13    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1172(send)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:542(merge_cookies)
+       36    0.000    0.000    0.000    0.000 <frozen _collections_abc>:435(__subclasshook__)
+       10    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:781(get_adapter)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:282(rebuild_auth)
+        1    0.000    0.000    0.061    0.061 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1312(do_handshake)
+        6    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+       10    0.000    0.000    0.000    0.000 <frozen _collections_abc>:845(__init__)
+        7    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:14(decode)
+       21    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:669(verify_mode)
+        6    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:110(__init__)
+        1    0.000    0.000    0.004    0.004 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:750(merge_environment_settings)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:331(set_payload)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:980(__init__)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:231(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1592(_get_spec)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:93(__getitem__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+       10    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:483(prepare_headers)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:344(<genexpr>)
+        7    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:615(_get_cached)
+        5    0.000    0.000    0.000    0.000 <frozen _collections_abc>:823(items)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:251(_put)
+        1    0.000    0.000    0.009    0.009 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:959(getaddrinfo)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:346(_get_timeout)
+        2    0.000    0.000    0.000    0.000 {method 'write' of '_io.BytesIO' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/weakref.py:568(__init__)
+        9    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/url.py:330(_idna_encode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:2422(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:94(__new__)
+       11    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       16    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/__init__.py:255(escape)
+       13    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:374(_merge_pool_kwargs)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:229(_new_pool)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/hooks.py:15(default_hooks)
+       25    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:113(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:106(_encode_params)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:254(_get)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:44(_debug)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/message.py:211(is_multipart)
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/hooks.py:22(dispatch_hook)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:454(__exit__)
+        8    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:453(isclosed)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:566(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/retry.py:202(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:320(close)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:575(isstring)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:98(closegroup)
+       17    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:387(_last_descendant)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:101(__new__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:208(_pop_message)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:997(raise_for_status)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:578(add_headers)
+       25    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/idna.py:308(getregentry)
+       20    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:83(groups)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:202(start_connect)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:304(cert_verify)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:34(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:677(verify_mode)
+        2    0.000    0.000    0.000    0.000 {method 'rstrip' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/connection.py:15(is_connection_dropped)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+       16    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_build}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:670(_classify_pyc)
+        1    0.000    0.000    0.063    0.063 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/ssl_.py:390(ssl_wrap_socket)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/poolmanager.py:199(__init__)
+       12    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:117(info)
+        2    0.000    0.000    0.000    0.000 {built-in method select.poll}
+       10    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:755(_compile_bytecode)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1290(_cookies_for_request)
+        8    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:1045(_validate_header_part)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/threading.py:277(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1013(close)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:245(read_timeout)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1524(find_spec)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:703(_validate_timestamp_pyc)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+        6    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:743(set_environ)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:1018(get_auth_from_url)
+        1    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Decompress' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:132(__init__)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        1    0.000    0.000    0.000    0.000 {method 'getvalue' of '_io.BytesIO' objects}
+        1    0.000    0.000    0.006    0.006 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1987(find)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:175(port)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:100(_intenum_converter)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:338(geturl)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:953(fix_flags)
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        6    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1276(_validate_path)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:240(init_poolmanager)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_markupbase.py:27(__init__)
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        2    0.000    0.000    0.000    0.000 {method 'clear' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/cookiejar.py:1269(set_policy)
+        6    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:211(<genexpr>)
+        6    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:86(opengroup)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/weakref.py:585(__call__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:81(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen _collections_abc>:549(__subclasshook__)
+        2    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/wait.py:74(do_poll)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:1034(check_header_validity)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:494(prepare_body)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/netrc.py:1(<module>)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:799(mount)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:507(detach)
+       13    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:433(_get_iscased)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/_markupbase.py:32(reset)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:1092(closed)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:1026(close)
+        4    0.000    0.000    0.000    0.000 <frozen posixpath>:41(_get_sep)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:647(_check_name_wrapper)
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+       12    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:172(__setitem__)
+        6    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1206(path_stats)
+        5    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:126(resolve_default_timeout)
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:421(_checknetloc)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:222(handle_entityref)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1267(_validate_method)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:258(__init__)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       11    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:900(default_headers)
+        3    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:472(_get_charset_prefix)
+        6    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:77(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/_htmlparser.py:323(prepare_markup)
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:82(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:554(_initialize_xml_detector)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:1124(supports_chunked_reads)
+        4    0.000    0.000    0.000    0.000 {method 'isalpha' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/ssl_.py:464(is_ipaddress)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/response.py:249(__len__)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/request.py:2689(getproxies_macosx_sysconf)
+       13    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_compiler.py:31(_combine_flags)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_collections.py:100(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/connection.py:93(_set_socket_options)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        2    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:441(_encode_hostname)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:501(close)
+        1    0.000    0.000    0.063    0.063 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/ssl_.py:488(_ssl_wrap_socket_impl)
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        3    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1263(_encode_request)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/request.py:136(set_file_position)
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:207(register_hook)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+        4    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:588(prepare_auth)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:893(_parse_flags)
+        5    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:227(connect_timeout)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1473(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/re/_parser.py:449(_uniq)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/timeout.py:172(from_float)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py:1776(getEffectiveLevel)
+        8    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/retry.py:242(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:676(unquote)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:630(prepare_hooks)
+        2    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x100fb36a0}
+        4    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/email/feedparser.py:124(__iter__)
+        1    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:1590(__setitem__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:156(username)
+        5    0.000    0.000    0.000    0.000 {method 'items' of 'collections.OrderedDict' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:87(get_new_headers)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:9(Codec)
+        2    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/cookies.py:435(get_policy)
+        4    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:292(is_closed)
+        2    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:574(_root_tag_encountered)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/ssl_.py:180(resolve_cert_reqs)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/response.py:91(is_response_to_head)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:306(proxy_is_forwarding)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:517(family)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:393(prepare_method)
+       12    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/element.py:996(name)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_abspath)
+        4    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/adapters.py:140(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:313(proxy_is_tunneling)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:337(_validate_conn)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 {method 'flush' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:962(urlencode)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/socket.py:523(type)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:197(reset)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/urllib/parse.py:193(_userinfo)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:1284(_validate_host)
+        2    0.000    0.000    0.000    0.000 {method 'update' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connectionpool.py:1145(_normalize_host)
+        2    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/typing.py:2183(cast)
+        3    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/_request_methods.py:51(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:21(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:17(IncrementalEncoder)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/__init__.py:211(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/bs4/builder/__init__.py:189(initialize_soup)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/structures.py:60(__len__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/_internal_utils.py:38(unicode_is_ascii)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/netrc.py:66(netrc)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/collections/__init__.py:669(update)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/connection.py:103(allowed_gai_family)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/netrc.py:22(_netrclex)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/html/parser.py:113(close)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:91(merge_hooks)
+        2    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/util/proxy.py:11(connection_requires_http_tunnel)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/netrc.py:10(NetrcParseError)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/utils.py:891(default_user_agent)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/encodings/cp1252.py:25(StreamWriter)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py:234(_acquireLock)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1157(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1182(get_filename)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:848(__len__)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py:243(_releaseLock)
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x100cf56c0}
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/ssl.py:1086(_check_connected)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/logging/__init__.py:1369(disable)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:990(create_module)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:572(prepare_content_length)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/http/client.py:924(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /opt/homebrew/Cellar/python@3.12/3.12.8/Frameworks/Python.framework/Versions/3.12/lib/python3.12/queue.py:245(_init)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/urllib3/connection.py:182(host)
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/sessions.py:451(__enter__)
+        1    0.000    0.000    0.000    0.000 /Users/mr_renskov/School_21/DS_Bootcamp.Day03-1/src/ex02/monroeju/lib/python3.12/site-packages/requests/models.py:216(<genexpr>)
+
+
