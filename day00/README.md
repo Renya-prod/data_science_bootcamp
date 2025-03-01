@@ -22,10 +22,7 @@ will be based on this),
 parameters,
 * stores it in a file with the name hh.json.
 
-The result in the file must be formatted in such a way that each field is placed on a
-different line. See the example below:
-
-![0](misc/images/0.png)
+The result in the file must be formatted in such a way that each field is placed on a different line.
 
 Your script must be executable. The interpreter to use is /bin/sh.
 
@@ -54,18 +51,12 @@ Write a shell script called json_to_csv.sh that:
 “name”, “has_test”, and “alternate_url”
 * saves the result to the CSV file hh.csv
 
-See the example below:
-
-![1](misc/images/1.png)
-
 The CSV file must have headers in the first row.
 
 Your script must be executable. The interpreter to use is /bin/sh.
 
 Put your filter file - the file that converts JSON to CSV, as well as the result of your
 conversion in the ex01 folder in the root directory of your repository.
-
-## Chapter V
 
 ### Exercise 02 : Sorting a file
 
@@ -94,8 +85,6 @@ Your script must be executable. The interpreter to use is /bin/sh.
 
 Put your shell script as well as your result of the sorting in the folder ex02 in the root
 directory of your repository.
-
-## Chapter VI
 
 ### Exercise 03 : Replacing strings in a file
 
@@ -140,8 +129,6 @@ Your script must be executable. The interpreter to use is /bin/sh.
 Put your shell script as well as your result from cleaning in the ex03 folder in the root
 directory of your repository.
 
-## Chapter VII
-
 ### Exercise 04 : Descriptive statistics
 
 Exercise 04
@@ -177,8 +164,6 @@ The CSV file must have headers in the first row as in the example.
 Your script must be executable. The interpreter to use is /bin/sh.
 Put your shell script as well as the result of counting in the ex04 folder in the root
 directory of your repository.
-
-## Chapter VIII
 
 ### Exercise 05 : Partitioning and concatenation
 
